@@ -1,0 +1,17 @@
+.comb.use-numbers {
+  padding-top: 14px;
+  position: relative;
+}
+.comb {
+  white-space: nowrap;
+}
+/* .comb span {
+  display: flex;
+} */
+.numbers {
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}

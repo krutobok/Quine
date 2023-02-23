@@ -1,0 +1,23 @@
+.App {
+  max-width: 1920px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+}
+h1 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 22px;
+  }
+}

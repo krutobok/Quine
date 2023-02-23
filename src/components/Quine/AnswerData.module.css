@@ -1,0 +1,28 @@
+.separator {
+  margin: 0 10px;
+}
+.answer {
+  display: flex;
+  font-size: 18px;
+  line-height: 20px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.function {
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+.comb-inner {
+  white-space: nowrap;
+}
+@media (max-width: 500px) {
+  .answer {
+    font-size: 14px;
+  }
+  .separator {
+    margin: 0 7px;
+  }
+}
