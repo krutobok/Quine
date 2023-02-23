@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.faf9f544.css",
-    "main.js": "/static/js/main.ab42290e.js",
-    "index.html": "/index.html",
-    "main.faf9f544.css.map": "/static/css/main.faf9f544.css.map",
-    "main.ab42290e.js.map": "/static/js/main.ab42290e.js.map"
+    "main.css": "/Quine/static/css/main.faf9f544.css",
+    "main.js": "/Quine/static/js/main.ab42290e.js",
+    "index.html": "/Quine/index.html",
+    "main.faf9f544.css.map": "/Quine/static/css/main.faf9f544.css.map",
+    "main.ab42290e.js.map": "/Quine/static/js/main.ab42290e.js.map"
   },
   "entrypoints": [
     "static/css/main.faf9f544.css",
