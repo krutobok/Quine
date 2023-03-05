@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Quine/static/css/main.faf9f544.css",
-    "main.js": "/Quine/static/js/main.ab42290e.js",
+    "main.css": "/Quine/static/css/main.d622d369.css",
+    "main.js": "/Quine/static/js/main.0576d6e2.js",
     "index.html": "/Quine/index.html",
-    "main.faf9f544.css.map": "/Quine/static/css/main.faf9f544.css.map",
-    "main.ab42290e.js.map": "/Quine/static/js/main.ab42290e.js.map"
+    "main.d622d369.css.map": "/Quine/static/css/main.d622d369.css.map",
+    "main.0576d6e2.js.map": "/Quine/static/js/main.0576d6e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.faf9f544.css",
-    "static/js/main.ab42290e.js"
+    "static/css/main.d622d369.css",
+    "static/js/main.0576d6e2.js"
   ]
 }
