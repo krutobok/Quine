@@ -3,6 +3,16 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+.switch-method {
+  background-color: transparent;
+  font-size: 20px;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+.switch-method.active {
+  border-bottom: 1px solid white;
+}
 .button {
   padding: 15px;
   font-size: 30px;

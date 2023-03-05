@@ -1,5 +1,6 @@
 {
   "name": "99-template",
+  "homepage": "https://krutobok.github.io/Quine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
