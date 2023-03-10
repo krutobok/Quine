@@ -2,9 +2,13 @@ import React from 'react'
 import styles from './AnswerData.module.css'
 import Combination from './Combination'
 
-const AnswerData = ({ answers, numbers = true }) => {
+const AnswerData = ({ answers, numbers = true, type = 'default' }) => {
   const answersNode = answers.map((li, index) => (
-    <li className={styles.answer} key={index}>
+    <li
+      className={`${styles.answer} ${type === 'answer' ? 'big' : ''}`}
+      // style={type === 'answer' ? { fontSize: '20px', lineHeight: '24px' } : {}}
+      key={index}
+    >
       <p className={styles.function}>F = </p>
       {li.map((comb, combIndex) => (
         <p className={styles['comb-inner']} key={combIndex}>

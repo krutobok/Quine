@@ -1,0 +1,24 @@
+.name__box {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  margin-bottom: 5px;
+}
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.separator {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.marking__list {
+  display: flex;
+  gap: 10px;
+}
+.marking__title {
+  margin-bottom: 2px;
+}
+/* .name {
+  font-size: 20px;
+} */

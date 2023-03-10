@@ -23,6 +23,10 @@
 .button:hover {
   background-color: #d0d0d0;
 }
+.search-icon {
+  margin-left: -36px;
+}
+
 @media (max-width: 400px) {
   .button {
     flex-basis: 100%;
@@ -30,5 +34,8 @@
   .input {
     flex-basis: 100%;
     margin-bottom: 10px;
+  }
+  .search-icon {
+    margin-top: -10px;
   }
 }

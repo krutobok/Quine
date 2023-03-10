@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import CheckButtonsContainer from './components/Viech/CheckButtonsContainer'
-import Table from './components/Viech/Table'
-import keysForSize4 from './data/keys'
-import getColor from './components/Utils/randomColor'
-import Result from './components/Viech/Result'
+import CheckButtonsContainer from './CheckButtonsContainer'
+import Table from './Table'
+import keysForSize4 from '../../data/keys'
+import getColor from '../../utils/randomColor'
+import Result from './Result'
 import styles from './VeitchApp.module.css'
 const SIZE = 4
 

@@ -173,7 +173,7 @@ const Quine = ({ startCombinations, size }) => {
   return (
     <div>
       <button
-        class={styles.button}
+        className={`${styles.button} big`}
         onClick={() => {
           setIsSolutionShown((prevState) => !prevState)
         }}

@@ -5,21 +5,25 @@
 }
 .switch-method {
   background-color: transparent;
-  font-size: 20px;
   border: none;
+  font-size: inherit;
   color: inherit;
   cursor: pointer;
 }
 .switch-method.active {
   border-bottom: 1px solid white;
 }
-.button {
+/* .button {
   padding: 15px;
   font-size: 30px;
   border-radius: 5px;
   margin: 20px;
   border: none;
   cursor: pointer;
+} */
+.big {
+  font-size: 20px !important;
+  line-height: 24px;
 }
 h1 {
   font-size: 28px;
@@ -29,5 +33,9 @@ h1 {
 @media (max-width: 500px) {
   h1 {
     font-size: 22px;
+  }
+  .big {
+    font-size: 16px !important;
+    line-height: 22px;
   }
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import InputForm from './InputForm'
+import InputForm from '../UI/InputForm'
 import Quine from './Quine'
 
 function QuineComponent() {
@@ -30,7 +30,13 @@ function QuineComponent() {
   return (
     <div>
       <h1>Розрахунок МДНФ методом Квайна</h1>
-      <InputForm onSubmitHandler={formOnSubmitHandler} />
+      <InputForm
+        onSubmitHandler={formOnSubmitHandler}
+        btnText="Розрахувати"
+        label="Введіть номера наборів, розділені пробілом"
+        placeholder="0 1 2 5 13 12"
+        id="numbers"
+      />
       {isQuineShown && isCorrect && (
         <Quine size={size} startCombinations={combinationIds} />
       )}
