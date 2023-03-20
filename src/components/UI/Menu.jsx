@@ -2,11 +2,17 @@ import { useState } from 'react'
 import { descriptions } from '../../data/descriptions'
 import styles from './Menu.module.css'
 
-const defaultMethod = localStorage.getItem('method') || 'quine'
+
+if(!localStorage.getItem('method')){
+  localStorage.setItem('method','quine')
+}
+
+const defaultMethod = localStorage.getItem('method')
 
 const Menu = ({ menuCloseHandler }) => {
   const [currentMethod, setCurrentMethod] = useState(defaultMethod)
   const onButtonClickHandler = (method) => {
+    console.log(1)
     localStorage.setItem('method', method)
     setCurrentMethod(method)
   }
